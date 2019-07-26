@@ -1,0 +1,99 @@
+Warning: Skip remote jar s3://kodurus/spark-demo.jar.
+19/04/21 21:19:00 INFO RMProxy: Connecting to ResourceManager at ip-172-31-31-237.ec2.internal/172.31.31.237:8032
+19/04/21 21:19:01 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+19/04/21 21:19:01 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (11520 MB per container)
+19/04/21 21:19:01 INFO Client: Will allocate AM container, with 1408 MB memory including 384 MB overhead
+19/04/21 21:19:01 INFO Client: Setting up container launch context for our AM
+19/04/21 21:19:01 INFO Client: Setting up the launch environment for our AM container
+19/04/21 21:19:01 INFO Client: Preparing resources for our AM container
+19/04/21 21:19:03 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+19/04/21 21:19:05 INFO Client: Uploading resource file:/mnt/tmp/spark-816cc53a-5586-4bec-9292-c452e94d4915/__spark_libs__8682034622091447396.zip -> hdfs://ip-172-31-31-237.ec2.internal:8020/user/hadoop/.sparkStaging/application_1555881412402_0001/__spark_libs__8682034622091447396.zip
+19/04/21 21:19:09 INFO Client: Uploading resource s3://kodurus/spark-demo.jar -> hdfs://ip-172-31-31-237.ec2.internal:8020/user/hadoop/.sparkStaging/application_1555881412402_0001/spark-demo.jar
+19/04/21 21:19:09 INFO S3NativeFileSystem: Opening 's3://kodurus/spark-demo.jar' for reading
+19/04/21 21:19:09 INFO Client: Uploading resource file:/mnt/tmp/spark-816cc53a-5586-4bec-9292-c452e94d4915/__spark_conf__5710255192171215108.zip -> hdfs://ip-172-31-31-237.ec2.internal:8020/user/hadoop/.sparkStaging/application_1555881412402_0001/__spark_conf__.zip
+19/04/21 21:19:09 INFO SecurityManager: Changing view acls to: hadoop
+19/04/21 21:19:09 INFO SecurityManager: Changing modify acls to: hadoop
+19/04/21 21:19:09 INFO SecurityManager: Changing view acls groups to: 
+19/04/21 21:19:09 INFO SecurityManager: Changing modify acls groups to: 
+19/04/21 21:19:09 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(hadoop); groups with view permissions: Set(); users  with modify permissions: Set(hadoop); groups with modify permissions: Set()
+19/04/21 21:19:09 INFO Client: Submitting application application_1555881412402_0001 to ResourceManager
+19/04/21 21:19:10 INFO YarnClientImpl: Submitted application application_1555881412402_0001
+19/04/21 21:19:11 INFO Client: Application report for application_1555881412402_0001 (state: ACCEPTED)
+19/04/21 21:19:11 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1555881549836
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-31-31-237.ec2.internal:20888/proxy/application_1555881412402_0001/
+	 user: hadoop
+19/04/21 21:19:12 INFO Client: Application report for application_1555881412402_0001 (state: ACCEPTED)
+19/04/21 21:19:13 INFO Client: Application report for application_1555881412402_0001 (state: ACCEPTED)
+19/04/21 21:19:14 INFO Client: Application report for application_1555881412402_0001 (state: ACCEPTED)
+19/04/21 21:19:15 INFO Client: Application report for application_1555881412402_0001 (state: ACCEPTED)
+19/04/21 21:19:16 INFO Client: Application report for application_1555881412402_0001 (state: ACCEPTED)
+19/04/21 21:19:17 INFO Client: Application report for application_1555881412402_0001 (state: ACCEPTED)
+19/04/21 21:19:18 INFO Client: Application report for application_1555881412402_0001 (state: ACCEPTED)
+19/04/21 21:19:19 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:19 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.31.18.197
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1555881549836
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-31-31-237.ec2.internal:20888/proxy/application_1555881412402_0001/
+	 user: hadoop
+19/04/21 21:19:20 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:21 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:22 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:23 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:24 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:25 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:26 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:27 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:28 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:29 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:30 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:31 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:32 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:33 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:34 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:35 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:36 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:37 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:38 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:39 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:40 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:41 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:42 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:43 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:44 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:45 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:46 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:47 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:48 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:49 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:50 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:51 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:52 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:53 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:54 INFO Client: Application report for application_1555881412402_0001 (state: RUNNING)
+19/04/21 21:19:55 INFO Client: Application report for application_1555881412402_0001 (state: FINISHED)
+19/04/21 21:19:55 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.31.18.197
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1555881549836
+	 final status: SUCCEEDED
+	 tracking URL: http://ip-172-31-31-237.ec2.internal:20888/proxy/application_1555881412402_0001/
+	 user: hadoop
+19/04/21 21:19:55 INFO ShutdownHookManager: Shutdown hook called
+19/04/21 21:19:55 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-851b58f3-dd09-4f99-9ebf-4d07baa299a6
+19/04/21 21:19:55 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-816cc53a-5586-4bec-9292-c452e94d4915
+Command exiting with ret '0'
